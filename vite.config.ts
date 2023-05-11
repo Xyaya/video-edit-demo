@@ -24,7 +24,7 @@ export default defineConfig(async ({ command, mode }) => {
       }
     },
     server: {
-      open: true,
+      open: false,
       host: '0.0.0.0',
       headers: {
         'Cross-Origin-Opener-Policy': 'same-origin',
